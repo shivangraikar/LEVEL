@@ -1,12 +1,8 @@
 # LEVEL
 
-Hello, this is team LEVEL
-- Woody Lin (team leader)
-- Sammed Jain
-- Jeremy Yao
 
 ## Project Website
-[LEVEL Platform](https://woodylinwc.github.io/LEVEL/)
+[LEVEL Platform](https://shivangraikar.github.io/LEVEL/)
 
 ## Introduction
 The goal of this project is to provide standardized visualization benchmark datasets
@@ -30,9 +26,6 @@ run the script remotely in the school server, compute the scores, and update the
 
 After the pull request is accepted, the evaluation will run under the hood (you can check the Github Action for the process).
 Once the evaluation is done, refresh the page. The leaderboard will be ranked based on the quality of prediction.
-
-## Workflow Demo
-It's called **demo.mp4** under the demo folder (unfortunately GitHub doesn't allow user to watch it online, you have to download it).
 
 You will see the following update the JSON file in the GitHub Action when the workflow is triggered.
 ```
@@ -85,7 +78,7 @@ Configuration file: /Users/woodylin/Documents/LEVEL/_config.yml
  Incremental build: disabled. Enable with --incremental
       Generating... 
                     done in 0.249 seconds.
- Auto-regeneration: enabled for '/Users/woodylin/Documents/LEVEL'
+ Auto-regeneration: enabled for '/Users/shivangraikar/Desktop/LEVEL'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```
