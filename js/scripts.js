@@ -141,10 +141,3 @@ function highlightColumn(selectedDataset) {
       break;
   }
 }
-
-// Event listener for the dataset selector
-datasetSelect.addEventListener("change", (event) => {
-  const selectedDataset = event.target.value;
-  updateLeaderboard(selectedDataset);
-  highlightColumn(selectedDataset);
-});

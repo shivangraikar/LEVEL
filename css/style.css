@@ -30,12 +30,6 @@ a {
   transition: color 0.3s ease-in-out;
 }
 
-a:hover {
-  color:rgb(209, 215, 228);
-  background-color: #34495e;
-  border-radius: 25px;
-}
-
 .header__navbar {
   padding: 0 0;
   border: 1px solid #a2a2a2;
@@ -47,8 +41,14 @@ a:hover {
   top: 0;
 }
 
+.navbar__links a:hover {
+  background-color: #34495e;
+  color:#ddd;
+  border-radius: 25px;
+}
+
 .navbar {
-  max-width: 1366px;
+  max-width: 1366px; 
   margin: 0 auto;
   padding: 0 3rem;
   &__logo {
