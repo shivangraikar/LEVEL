@@ -18,8 +18,8 @@ jobs:
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            if [ ! -f /home/woodylin/published.lock ]; then
-              /home/woodylin/publish.sh
+            if [ ! -f /home/shivangraikar/published.lock ]; then
+              /home/shivangraikar/publish.sh
               echo "$(date)" > /home/woodylin/published.lock
             else
               echo "Script already executed. Skipping script execution."
