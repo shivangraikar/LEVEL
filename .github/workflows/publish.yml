@@ -1,4 +1,8 @@
 name: Remote SSH Command
+run: echo "host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}"
 on:
   push
 #   pull_request:
