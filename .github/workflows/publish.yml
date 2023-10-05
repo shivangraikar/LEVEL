@@ -6,13 +6,11 @@ on:
 #       - closed
 jobs:
   build:
-
     name: Build
     runs-on: ubuntu-latest
     environment: github-pages
     steps:
       - name: Execute remote SSH commands using SSH key
-        run: echo "Host value: ${{ secrets.HOST }}"
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.HOST }}
