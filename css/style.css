@@ -85,15 +85,13 @@ a {
 	}
 }
 
-
-
-
-  .info {
-    font-family: "Poppins";
-    margin-top: 1px;
-    margin-left: 50px;
-  }
   
+.info {
+  font-family: "Poppins";
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
   .tab1 {
     float: left;
     border: none;
