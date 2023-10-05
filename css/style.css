@@ -92,6 +92,10 @@ a {
   margin-left: 50px;
 }
 
+.info a {
+  padding: 0;
+  margin: 0;
+}
   .tab1 {
     float: left;
     border: none;
@@ -123,6 +127,8 @@ a {
   .info1 a {
     color: rgb(79, 134, 244);
     text-decoration: none; /* remove underline */
+    padding: 0;
+    margin: 0;
   }
   
   .info2 {
@@ -132,27 +138,47 @@ a {
   
   .info3 {
     margin-left: 50px;
-    font-size: 40px;
     font-family: "Poppins";
   }
 
   .info3 a {
     color: rgb(79, 134, 244);
-    text-decoration: none; /* remove underline */
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
   }
-  .info3 img {
-    width: 40%; 
+
+ .info3 .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 20px 0 0 0;
+}
+
+.info3 ul {
+    list-style-type: disc; /* Use bullets as list-style */
+    padding-left: 20px; /* Adjust spacing as needed */
+}
+
+.info3 img {
+    width: 60%;
     height: auto;
     margin-left: 100px;
-  }
+    padding-bottom: 20px;
+}
+
   
-  .info4 {
-    font-size: 30px;
-    margin-left: 100px;
-    font-family: "Poppins";
-  }
+.info3 .points {
+  font-size: 20px;
+  margin-left: 100px;
+  font-family: "Poppins";
+}
+
+.info3 .points li {
+  padding: 20px 0 20px 0;
+}
   
-  .tabcontent {
+.tabcontent {
     margin: 0 auto; /* Center align horizontally */
     padding: 20px 12px;
     border: none;

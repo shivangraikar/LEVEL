@@ -5,8 +5,8 @@ layout: default
 ---
 
 <p class="info" style="font-family: 'Poppins'; font-size: 20px; padding: 50px 300px; text-align: justify;">
-<b>Le-v-el Platform provides standardized <a href="./dataset" class="hyperlink">benchmark datasets</a>for computational visualization understanding or Chart Question Answering. You can participate by <a href="./submit" class="hyperlink">submitting</a> the results of your algorithm.</b>
-</p>
+<b>Le-v-el Platform provides standardized <a href="./dataset" class="hyperlink">benchmark datasets</a> for computational visualization understanding or Chart Question Answering. You can participate by <a href="./submit" class="hyperlink">submitting</a> the results of your algorithm.</b>
+</p> 
 
 <header>
     <img src="img/leaderboard_logo.png" alt="pic_of_leaderboard" width="80" height="80"/>
