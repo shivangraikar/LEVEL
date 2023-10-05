@@ -96,8 +96,8 @@ a {
     float: left;
     border: none;
     background-color: white;
-    width: 30%;
-    height: 300px;
+    width: 33.33%;
+    height: 50px;
   }
   
   .tab1 button {
@@ -110,9 +110,9 @@ a {
     width: 100%;
     border: none;
     outline: none;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 22px;
   }
   
   .info1 {
@@ -234,4 +234,3 @@ a {
     color: rgb(79, 134, 244);
     text-decoration: none; /* remove underline */
   }
-  
