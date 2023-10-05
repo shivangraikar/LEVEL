@@ -116,7 +116,7 @@ a {
   }
   
   .info1 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Poppins";
   }
 
@@ -153,14 +153,15 @@ a {
   }
   
   .tabcontent {
-    float: left;
-    padding: 0px 12px;
+    margin: 0 auto; /* Center align horizontally */
+    padding: 20px 12px;
     border: none;
     width: 70%;
     border-left: none;
     height: 300px;
     display: none;
-  }
+}
+
   
   .tab1 button:hover {
     background-color: #ddd;
