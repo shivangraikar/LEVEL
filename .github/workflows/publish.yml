@@ -20,7 +20,7 @@ jobs:
           script: |
             if [ ! -f /home/shivangraikar/published.lock ]; then
               /home/shivangraikar/publish.sh
-              echo "$(date)" > /home/woodylin/published.lock
+              echo "$(date)" > /home/shivangraikar/published.lock
             else
               echo "Script already executed. Skipping script execution."
             fi
