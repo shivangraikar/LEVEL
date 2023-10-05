@@ -11,7 +11,7 @@ jobs:
     environment: github-pages
     steps:
       - name: Execute remote SSH commands using SSH key
-        uses: appleboy/ssh-action@v1.0.0
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
