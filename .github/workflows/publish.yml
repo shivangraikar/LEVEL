@@ -13,14 +13,9 @@ jobs:
       - name: Execute remote SSH commands using SSH key
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
+          host: 158.121.104.215
+          username: shivangr
           key: ${{ secrets.KEY }}
-          port: ${{ secrets.PORT }}
+          port: 22
           script: |
-            if [ ! -f /home/shivangraikar/published.lock ]; then
-              /home/shivangraikar/publish.sh
-              echo "$(date)" > /home/shivangraikar/published.lock
-            else
-              echo "Script already executed. Skipping script execution."
-            fi
+            whoami
