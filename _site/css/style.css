@@ -50,10 +50,9 @@ a {
 .navbar {
   max-width: 1366px; 
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 3rem 0;
   &__logo {
     margin: 0;
-    padding: 1rem 0;
   }
 }
 
