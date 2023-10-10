@@ -19,7 +19,7 @@ jobs:
           port: ${{ secrets.PORT}}
           script: |
             if [ ! -f published.lock ]; then
-              /home/publish.sh
+              publish.sh
               echo "$(date)" > published.lock
             else
               echo "Script already executed. Skipping script execution."
