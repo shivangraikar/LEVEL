@@ -18,4 +18,9 @@ jobs:
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT}}
           script: |
-            whoami
+            if [ ! -f /home/published.lock ]; then
+              /home/publish.sh
+              echo "$(date)" > /home/published.lock
+            else
+              echo "Script already executed. Skipping script execution."
+            fi
