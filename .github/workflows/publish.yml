@@ -19,6 +19,7 @@ jobs:
           port: ${{ secrets.PORT}}
           script: |
             if [ ! -f published.lock ]; then
+              chmod +x publish.sh
               ./publish.sh
               echo "$(date)" > published.lock
             else
