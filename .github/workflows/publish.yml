@@ -20,7 +20,7 @@ jobs:
           script: |
             if [ ! -f published.lock ]; then
               chmod +x publish.sh
-              ./publish.sh
+              /home/shivangr/publish.sh
               echo "$(date)" > published.lock
             else
               echo "Script already executed. Skipping script execution."
