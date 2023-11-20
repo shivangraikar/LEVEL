@@ -44,7 +44,7 @@ h1,a {
 
 .navbar__links a:hover {
   border-color: #34495e;
-  color:#34495e;
+  color: rgb(79, 134, 244);
   border-radius: 10px;
 }
 
